@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Fashion Outlet</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style type="text/css">
+		body {
+			background-color: #ffffff;
+			color: #000000;
+			font-family: Arial, sans-serif;
+			font-size: 12pt;
+			margin: 0;
+			padding: 0;
+		}
+
+		.header {
+			background-color: #000000;
+			color: #ffffff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.menu {
+			background-color: #cccccc;
+			padding: 5px;
+		}
+
+		.menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+
+		.menu ul li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		.menu ul li a {
+			color: #000000;
+			text-decoration: none;
+		}
+
+		.featured {
+			background-color: #ffffcc;
+			padding: 10px;
+		}
+
+		.featured h2 {
+			margin: 0;
+			padding-bottom: 10px;
+			text-align: center;
+		}
+
+		.featured img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+
+		.products {
+			background-color: #ffffff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.products h2 {
+			margin: 0;
+			padding-bottom: 10px;
+		}
+
+		.products ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.products ul li {
+			display: inline-block;
+			margin: 0 10px 20px 10px;
+			vertical-align: top;
+			width: 200px;
+		}
+
+		.products ul li img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+
+		.products ul li h3 {
+			font-size: 14pt;
+			margin: 10px 0 0 0;
+			padding: 0;
+		}
+
+		.products ul li p {
+			font-size: 10pt;
+			margin: 5px 0;
+			padding: 0;
+		}
+
+		.footer {
+			background-color: #000000;
+			color: #ffffff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.footer p {
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			padding: 20px;
+		}
+		.card {
+			background-color: #f2f2f2;
+			padding: 20px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.card img {
+			max-width: 100%;
+			height: auto;
+		}
+		.card h2 {
+			margin: 10px 0 0 0;
+			font-size: 18px;
+		}
+		.card p {
+			margin: 5px 0 0 0;
+			font-size: 14px;
+			font-weight: bold;
+			color: #333333;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Clothes R' Us</h1>
+		<p>Your one-stop e-shop for the latest trends</p>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">New Arrivals</a></li>
+			<li><a href="#">Clothing</a></li>
+			<li><a href="#">Accessories</a></li>
+			<li><a href="#">Sale</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="card">
+			<img src="https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1519402505/200035_KQWBG_9791_001_100_0000_Light.jpg" width="250" height="300">
+			<h2>Gucci Lue</h2>
+			<p>$100</p>
+		</div>
+		<div class="card">
+			<img src="https://www.ivy-style.com/wp-content/uploads/2013/06/popped.jpg" width="250" height="300">
+			<h2>Abercrombie and Fitch Pique</h2>
+			<p>$180</p>
+		</div>
+		<div class="card">
+			<img src="https://assets.vogue.com/photos/55c650aa08298d8be2141848/master/w_2560%2Cc_limit/00040fullscreen.jpg" width="250" height="300">
+			<h2>Burberry</h2>
+			<p>$120</p>
+		</div>
+		<div class="card">
+			<img src="https://www3.pictures.livingly.com/it/Karl+Lagerfeld+Spring+2010+8hYbjYr-5a8l.jpg" width="250" height="300">
+			<h2>Karl Lagerfeld</h2>
+			<p>$90</p>
+		</div>
+		<div class="card">
+			<img src="https://assets.vogue.com/photos/55c651a808298d8be225abc1/master/w_2560%2Cc_limit/00020fullscreen.jpg" width="250" height="300">
+			<h2>Marc Jacobs</h2>
+			<p>$110</p>
+		</div>
+		<div class="card">
+			<img src="https://assets.teenvogue.com/photos/55836167fb1995762be344e8/master/w_320%2Cc_limit/fashion-fall-trends-2012-07-forever-21-fall-movement-09.jpg" width="250" height="300">
+			<h2>Forever 21</h2>
+			<p>$70</p>
+		</div>
+		<div class="card">
+			<img src="https://cdn.fashdirect.com/webadmin/items/website/2211423/image_2_323784906391_1.jpg" width="250" height="300">
+			<h2>Nike</h2>
+			<p>$130</p>
+		</div>
+		<div class="card">
+			<img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/7ed0855435194229a525aad6009a0497_9366/Superstar_Sko_Hvit_EG4958_01_standard.jpg" width="250" height="300">
+			<h2>Adidas</h2>
+			<p>$60</p>
+		</div>
+		<div class="card">
+			<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80" width="250" height="300">
+			<h2>Puma</h2>
+			<p>$150</p>
+		</div>
+		</div>
+	</div>
+</body>
